@@ -13,7 +13,6 @@
 		19327A60255E242200A37181 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19327A5F255E242200A37181 /* Preview Assets.xcassets */; };
 		19327A6A255E321500A37181 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19327A69255E321500A37181 /* NetworkManager.swift */; };
 		19327A6E255E3E1700A37181 /* PostData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19327A6D255E3E1700A37181 /* PostData.swift */; };
-		19631E91255F4717004747BD /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19631E90255F4717004747BD /* DetailView.swift */; };
 		19E060862561CC1D0036245E /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E060852561CC1D0036245E /* WebView.swift */; };
 /* End PBXBuildFile section */
 
@@ -26,7 +25,6 @@
 		19327A61255E242200A37181 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		19327A69255E321500A37181 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		19327A6D255E3E1700A37181 /* PostData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostData.swift; sourceTree = "<group>"; };
-		19631E90255F4717004747BD /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		19E060852561CC1D0036245E /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -91,7 +89,6 @@
 			isa = PBXGroup;
 			children = (
 				19327A5A255E242000A37181 /* ContentView.swift */,
-				19631E90255F4717004747BD /* DetailView.swift */,
 				19E060852561CC1D0036245E /* WebView.swift */,
 			);
 			path = Views;
@@ -170,7 +167,6 @@
 				19327A6E255E3E1700A37181 /* PostData.swift in Sources */,
 				19327A5B255E242000A37181 /* ContentView.swift in Sources */,
 				19E060862561CC1D0036245E /* WebView.swift in Sources */,
-				19631E91255F4717004747BD /* DetailView.swift in Sources */,
 				19327A59255E242000A37181 /* H4X0R_NewsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

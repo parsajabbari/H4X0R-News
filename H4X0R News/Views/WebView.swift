@@ -5,7 +5,6 @@
 //  Created by Parsa Jabbari on 11/15/20.
 //
 
-import Foundation
 import WebKit
 import SwiftUI
 
@@ -24,5 +23,12 @@ struct WebView: UIViewRepresentable {
                 uiView.load(request)
             }
         }
+    }
+}
+
+struct WebView_Previews: PreviewProvider {
+    static var previews: some View {
+        WebView(urlString: "https://www.google.com")
+            .previewLayout(.sizeThatFits)
     }
 }
